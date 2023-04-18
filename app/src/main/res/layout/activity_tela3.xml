@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECECEC"
+    android:backgroundTint="#ECECEC"
+    tools:context=".Tela3Activity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="374dp"
+        android:layout_height="570dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/montserrat_alternates"
+        android:text="Do outro lado, as pessoas em situação de vulnerabilidade alimentar podem se cadastrar no MenosFome para receber doações de alimentos ou recursos financeiros para a compra de alimentos. Com a ajuda da plataforma, é possível conectar doadores e pessoas em tempo real, garantindo que a ajuda chegue a quem mais precisa.  Além disso, o MenosFome também oferece informações sobre nutrição e saúde para seus usuários, ajudando a promover uma alimentação mais saudável e equilibrada.  O MenosFome é uma ferramenta poderosa para ajudar a combater a fome na cidade do Recife. Baixe agora o aplicativo e faça parte desta corrente do bem, ajudando a garantir que todos tenham acesso a alimentos nutritivos e de qualidade. Juntos podemos fazer a diferença e combater a fome na nossa cidade!"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

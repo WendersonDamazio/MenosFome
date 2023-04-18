@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ACACAC"
+    android:backgroundTint="#ECECEC"
+    app:circularflow_viewCenter="@string/app_name"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="192dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="72dp"
+        android:background="#00D1CBCB"
+        android:text="MenosFome"
+        android:textColor="#FF0000"
+        android:textColorHighlight="#A6FF00"
+        android:textColorLink="#DAE44A"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edNome"
+        android:layout_width="313dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:hint="Login"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#FF0000"
+        android:textColorLink="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/tvTitulo"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/tvTitulo"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitulo" />
+
+    <EditText
+        android:id="@+id/edSenha"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#FF0000"
+        android:textColorLink="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/edNome"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edNome"
+        app:layout_constraintTop_toBottomOf="@+id/edNome" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#00FFB7"
+        android:text="Check box"
+        app:buttonIconTint="#002AFF"
+        app:layout_constraintStart_toStartOf="@+id/edSenha"
+        app:layout_constraintTop_toBottomOf="@+id/edSenha" />
+
+    <Button
+        android:id="@+id/btLogin"
+        android:layout_width="200dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="#E11818"
+        android:outlineAmbientShadowColor="#EC1B1B"
+        android:outlineSpotShadowColor="#E32121"
+        android:shadowColor="#F11919"
+        android:text="Enter"
+        app:layout_constraintEnd_toEndOf="@+id/edSenha"
+        app:layout_constraintHorizontal_bias="0.427"
+        app:layout_constraintStart_toStartOf="@+id/edSenha"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox2"
+        app:rippleColor="#DF1E1E" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
