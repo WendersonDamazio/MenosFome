@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1068194247329",
+    "project_id": "menosfome-79973",
+    "storage_bucket": "menosfome-79973.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068194247329:android:82fd7b7441b434fb2b36e0",
+        "android_client_info": {
+          "package_name": "om.example.empregaueu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1068194247329-2iam44u5637b53cgmu9l1grkliuchvv7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1CmgZwh-Dl-OCr0IG9VMWCYLPk0mPQN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068194247329-2iam44u5637b53cgmu9l1grkliuchvv7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
